@@ -19,6 +19,7 @@ const ForgetForm=()=>{
       else{
         Alert.alert("Email cannot be empty")
       }
+      setEmail("")
   }
     return (
         <Center w="100%" h="100%" backgroundColor={"#fff"}>
@@ -34,7 +35,7 @@ const ForgetForm=()=>{
         <VStack space={3} mt="5">
           <FormControl>
             <FormControl.Label>Email ID</FormControl.Label>
-            <Input onChangeText={(text)=>setEmail(text)}/>
+            <Input onChangeText={(text)=>setEmail(text)} value={email}/>
           </FormControl>
           <Button mt="2"  bg={"#3897f0"} onPress={ResetPass}>
          Reset

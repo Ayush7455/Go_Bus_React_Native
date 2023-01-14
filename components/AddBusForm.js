@@ -17,12 +17,16 @@ const AddBusForm=()=>{
     Licensenumber: licensenumber,
     busnumber: busnumber,
     password:password,
-  }).then(()=>{
+    }).then(()=>{
     Alert.alert(`${busnumber} Registered for tracking`)
 
   }).catch((error)=>{
-    Alert.alert(error.message)
+    Alert.alert("Something went wrong")
   })
+  setBusNumber("")
+  setDriverName("")
+  setLicenseNumber("")
+  setPassword("")
 }
 
     return (
@@ -40,19 +44,19 @@ const AddBusForm=()=>{
         <VStack space={3} mt="5">
           <FormControl>
             <FormControl.Label>Bus Number</FormControl.Label>
-            <Input onChangeText={(text)=>setBusNumber(text)} />
+            <Input onChangeText={(text)=>setBusNumber(text)} value={busnumber} />
           </FormControl>
           <FormControl>
             <FormControl.Label>Drive Name</FormControl.Label>
-            <Input onChangeText={(text)=>setDriverName(text)}/>
+            <Input onChangeText={(text)=>setDriverName(text)} value={drivername}/>
           </FormControl>
           <FormControl>
             <FormControl.Label>License Number</FormControl.Label>
-            <Input onChangeText={(text)=>setLicenseNumber(text)}/>
+            <Input onChangeText={(text)=>setLicenseNumber(text)} value={licensenumber}/>
           </FormControl>
           <FormControl>
             <FormControl.Label>Password</FormControl.Label>
-            <Input type="password" onChangeText={(text)=>setPassword(text)} />
+            <Input type="password" onChangeText={(text)=>setPassword(text)}value={password} />
           </FormControl>
           <Button mt="2"  bg={"#3897f0"} onPress={addbus}>
          Add

@@ -28,6 +28,8 @@ const LoginFormAdmin = () => {
       else{
       Alert.alert("Invalid User")
   }})
+  setEmail("")
+  setPassword("")
   }
   return <Center w="100%" h="100%" backgroundColor={"#fff"}>
       
@@ -50,11 +52,11 @@ const LoginFormAdmin = () => {
         <VStack space={3} mt="5">
           <FormControl>
             <FormControl.Label>Email ID</FormControl.Label>
-            <Input onChangeText={(text)=>setEmail(text)} />
+            <Input onChangeText={(text)=>setEmail(text)} value={email}/>
           </FormControl>
           <FormControl>
             <FormControl.Label>Password</FormControl.Label>
-            <Input type="password"onChangeText={(text)=>setPassword(text)}  />
+            <Input type="password"onChangeText={(text)=>setPassword(text)} value={password} />
 
             <Link _text={{
             fontSize: "xs",
