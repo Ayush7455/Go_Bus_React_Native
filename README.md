@@ -42,17 +42,17 @@ Go Bus is a bus tracking application built using React Native. The app has two l
 
 
 
-#### Admin Login
+#### Add Bus
 
 
 
-<img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203415(1).jpg" height="540">
+<img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203450.jpg" height="540">
 
 
 
-#### Admin Login
+#### Driver Login
 
 
 
-<img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203415(1).jpg" height="540">
+<img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203524.jpg" height="540">
 
