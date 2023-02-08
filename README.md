@@ -21,54 +21,54 @@ Go Bus is a bus tracking application built using React Native. The app has two l
 
 #### Admin Login
 
-
+<kbd>
 
 <img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203415(1).jpg" height="540">
-
+</kbd>
 
 #### Admin Portal
 
-
+<kbd>
 
 <img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203445(1).jpg" height="540">
 
-
+</kbd>
 
 #### Admin Login
 
-
+<kbd>
 
 <img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203415(1).jpg" height="540">
 
-
+</kbd>
 
 #### Add Bus
 
-
+<kbd>
 
 <img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203450.jpg" height="540">
-
+</kbd>
 
 
 #### Driver Login
-
+<kbd>
 
 
 <img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203524.jpg" height="540">
 
-
+</kbd>
 #### Driver Location
 
 
-
+<kbd>
 <img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203541(1).jpg" height="540">
-
+</kbd>
 
 
 #### Track Bus
 
 
-
+<kbd>
 <img src="https://raw.githubusercontent.com/Ayush7455/Screenshots/main/Screenshot_20230208_203608.jpg" height="540">
-
+</kbd>
 
