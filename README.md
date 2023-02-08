@@ -4,8 +4,8 @@ Go Bus is a bus tracking application built using React Native. The app has two l
 
 ### Features
 * Admin Login
-       * Register bus
-       * Track bus
+    * Register bus
+    * Track bus
 * Driver Login
     * Update bus location using GPS
     * Real-time bus tracking using Cloud Firestore
